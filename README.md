@@ -1,5 +1,6 @@
 # µSleepStop
 The program does exactly two things:
+
 1. Make a call to SetThreadExecutionState with ES_DISPLAY_REQUIRED set
 2. Open a message box
 
