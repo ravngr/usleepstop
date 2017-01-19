@@ -14,7 +14,7 @@ extrn ExitProcess@4 : PROC
 start:
         push -2147483646                ; ES_CONTINUOUS | ES_DISPLAY_REQUIRED
         call SetThreadExecutionState@4
-        push 48							; MB_ICONWARNING
+        push 48                         ; MB_ICONWARNING
         lea eax, MsgTitle
         push eax
         lea ebx, MsgText
